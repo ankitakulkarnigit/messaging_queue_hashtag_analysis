@@ -15,7 +15,7 @@ WorkerService- WorkerService.py
 
 2) Procfile
 
-3) SQL schema foo database:
+3) SQL schema for database:
 SQLite3- schema.sql
 
 4) Load test results for the synchronous and asynchronous endpoints
