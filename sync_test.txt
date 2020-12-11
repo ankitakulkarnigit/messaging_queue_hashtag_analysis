@@ -1,0 +1,46 @@
+This is ApacheBench, Version 2.3 <$Revision: 1843412 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 127.0.0.1 (be patient)
+
+
+Server Software:        Werkzeug/1.0.1
+Server Hostname:        127.0.0.1
+Server Port:            6100
+
+Document Path:          /postTweet
+Document Length:        72 bytes
+
+Concurrency Level:      25
+Time taken for tests:   25.441 seconds
+Complete requests:      5000
+Failed requests:        0
+Keep-Alive requests:    0
+Total transferred:      1110000 bytes
+Total body sent:        1610000
+HTML transferred:       360000 bytes
+Requests per second:    196.53 [#/sec] (mean)
+Time per request:       127.205 [ms] (mean)
+Time per request:       5.088 [ms] (mean, across all concurrent requests)
+Transfer rate:          42.61 [Kbytes/sec] received
+                        61.80 kb/s sent
+                        104.41 kb/s total
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    0   0.9      0      32
+Processing:     7  126 298.9     33    4048
+Waiting:        7  125 298.9     33    4048
+Total:          7  126 298.9     33    4048
+
+Percentage of the requests served within a certain time (ms)
+  50%     33
+  66%     55
+  75%     90
+  80%    118
+  90%    259
+  95%    661
+  98%   1206
+  99%   1591
+ 100%   4048 (longest request)
